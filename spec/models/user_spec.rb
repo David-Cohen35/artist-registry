@@ -1,6 +1,7 @@
 require 'rails_helper'
 # require 'shoulda/matchers'
 
+
 describe User do
   subject(:user) do
     FactoryBot.build(:user,
